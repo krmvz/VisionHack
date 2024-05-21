@@ -1,0 +1,27 @@
+// Variables
+$small-screen: 600px;
+$medium-screen: 768px;
+$large-screen: 1024px;
+$extra-large-screen: 1200px;
+
+// Base Styles
+body {
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('../images/1\ градиент.png');
+  background-size: cover; // Options: cover, contain, auto
+  background-position: center; // Options: top, bottom, left, right, center
+  background-repeat: no-repeat; // Options: no-repeat, repeat, repeat-x, repeat-y
+  background-attachment: fixed; // Options: scroll, fixed, local
+  background-blend-mode: overlay;
+  .App{
+    background-image: url('./');
+  }
+}
