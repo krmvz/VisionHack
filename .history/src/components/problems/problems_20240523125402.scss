@@ -1,0 +1,33 @@
+.problems{
+    h2{
+        text-align: center;
+    }
+}
+.problems{
+    h2{
+        text-align: center;
+    }
+    .cards{
+        /* src/components/Card.css */
+        .card {
+            max-width: 300px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            background-color: #fff;
+        }
+        
+        .card-image {
+            width: 100%;
+            height: auto;
+        }
+        
+        .card-text {
+            padding: 15px;
+            font-size: 1em;
+            color: #333;
+        }
+        
+    }
+}

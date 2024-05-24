@@ -1,0 +1,41 @@
+.problems{
+    h2{
+        text-align: center;
+    }
+}
+// src/App.scss
+
+.problems {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    max-width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background-color: #fff;
+  
+    .card-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .card-content {
+      padding: 15px;
+  
+      .card-description {
+        font-size: 1em;
+        color: #333;
+      }
+    }
+  }
+  

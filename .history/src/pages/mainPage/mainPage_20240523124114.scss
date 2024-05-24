@@ -1,0 +1,71 @@
+.problems{
+    h2{
+        text-align: center;
+    }
+    .cards{
+        /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Card Container */
+  .card {
+    max-width: 300px;           /* Adjust the width as needed */
+    margin: 20px auto;          /* Center the card and add vertical margin */
+    border-radius: 10px;        /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden;           /* Hide overflow for rounded corners */
+    background-color: #fff;     /* White background */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Lift the card slightly on hover */
+  }
+  
+  /* Card Image */
+  .card-image {
+    width: 100%;                /* Make the image cover the full width of the card */
+    height: auto;               /* Maintain the image's aspect ratio */
+  }
+  
+  /* Card Content */
+  .card-content {
+    padding: 15px;              /* Add padding around the content */
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.5em;           /* Larger font size for the title */
+    margin-bottom: 10px;        /* Space below the title */
+    color: #333;                /* Dark gray color for the title */
+  }
+  
+  /* Card Description */
+  .card-description {
+    font-size: 1em;             /* Regular font size for the description */
+    margin-bottom: 15px;        /* Space below the description */
+    color: #666;                /* Medium gray color for the description */
+  }
+  
+  /* Card Button */
+  .card-button {
+    display: inline-block;      /* Inline-block for padding and margins */
+    padding: 10px 20px;         /* Add padding inside the button */
+    font-size: 1em;             /* Regular font size */
+    color: #fff;                /* White text color */
+    background-color: #007BFF;  /* Blue background color */
+    text-decoration: none;      /* Remove underline */
+    border-radius: 5px;         /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth color transition */
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;  /* Darker blue on hover */
+  }
+  
+    }
+}

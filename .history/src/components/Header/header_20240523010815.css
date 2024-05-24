@@ -1,0 +1,12 @@
+.header {
+  height: 132px;
+  display: flex;
+  align-items: center;
+}
+.header .navbar a {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+}/*# sourceMappingURL=header_20240523010815.css.map */

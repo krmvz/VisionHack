@@ -1,0 +1,23 @@
+// @import "~bootstrap/scss/bootstrap";
+
+
+.header{
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        a{
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: left;
+            text-decoration: none;
+            color: white;
+            gap: 37px;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.problems {
+  padding: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 0 21%; /* Adjust the flex-basis to fit 3 cards per row with margins */
+  margin: 10px;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #fff;
+}
+.card .card-image {
+  width: 100%;
+  height: auto;
+}
+.card .card-content {
+  padding: 15px;
+}
+.card .card-content .card-description {
+  font-size: 1em;
+  color: #333;
+}/*# sourceMappingURL=problems_20240523141403.css.map */
