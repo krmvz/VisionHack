@@ -1,0 +1,39 @@
+.problems {
+  padding: 18px;
+  text-align: center;
+  background-image: url("../../images/mainbgi.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 0 1 calc(33.333% - 20px);
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: #D7C2F8;
+}
+.card .card-image {
+  width: 100%;
+  height: 384px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card .card-content {
+  padding: 15px;
+}
+.card .card-content .card-description {
+  font-family: Raleway;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  color: #0A0035;
+}/*# sourceMappingURL=problems_20240525015336.css.map */

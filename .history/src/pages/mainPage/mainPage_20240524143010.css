@@ -1,0 +1,11 @@
+.mainPage .content {
+  display: flex;
+}
+.mainPage .content .main_text {
+  font-family: Kursk205W00-Medium;
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: left;
+  color: white;
+}/*# sourceMappingURL=mainPage_20240524143010.css.map */

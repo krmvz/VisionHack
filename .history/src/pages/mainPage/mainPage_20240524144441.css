@@ -1,0 +1,27 @@
+.mainPage .content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.mainPage .content .main_text {
+  font-family: "Kursk205W00-Medium";
+  font-size: 54px;
+  font-weight: 500;
+  line-height: 54px;
+  text-align: left;
+  color: white;
+}
+.mainPage .content .logs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.mainPage .content .logs .login {
+  width: Fixed 192px px;
+  height: Fixed 60px px;
+  padding: 10px;
+  gap: 10px;
+  opacity: 0px;
+  background: #C110CD;
+  color: white;
+}/*# sourceMappingURL=mainPage_20240524144441.css.map */

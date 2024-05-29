@@ -1,0 +1,51 @@
+body {
+  color: white;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/mainbgi.png") !important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+}
+
+/* Basic Container Styling */
+.container {
+  max-width: 1200px; /* Maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add horizontal padding */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Example for Responsive Design */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px;
+  }
+}
+.problems {
+  background-image: url("./images/mainbgi.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+}/*# sourceMappingURL=App_20240525015138.css.map */

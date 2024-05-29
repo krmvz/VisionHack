@@ -8,12 +8,8 @@ body {
 }
 
 body {
-  background-image: url("./images/mainbgi.png") !important;
+  background-image: url("./images/1.1.png");
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-blend-mode: overlay;
 }
 
 /* Basic Container Styling */

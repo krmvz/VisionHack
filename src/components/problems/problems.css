@@ -1,6 +1,13 @@
 .problems {
+  padding-bottom: 1000px;
   padding: 18px;
   text-align: center;
+  background-image: url("../../images/problems.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
 }
 
 .cards {
