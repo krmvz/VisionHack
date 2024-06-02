@@ -1,0 +1,52 @@
+.forms {
+  margin: 100px 0px 100px 700px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+}
+.forms .title {
+  display: flex;
+  justify-content: center;
+  font-family: "Kursk205W00-Medium";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  font-weight: bold;
+}
+.forms .form form div {
+  display: flex;
+  flex-direction: column;
+}
+.forms .form form div label {
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  padding: 10px;
+}
+.forms .form form div input {
+  width: Fixed 620px px;
+  height: Fixed 52px px;
+  padding: 10px 18px 10px 18px;
+  gap: 10px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+}
+.forms .form form button {
+  color: white;
+  background-color: #C110CD;
+  width: 460px;
+  height: 40px;
+  padding: 10px 0px 0px 0px;
+  gap: 10px;
+  opacity: 0px;
+  cursor: pointer;
+  border: none;
+  margin-top: 25px;
+}
+.forms .form form button:hover {
+  box-shadow: 0px 0px 50px 0px #C110CD;
+}/*# sourceMappingURL=Forms.css.map */

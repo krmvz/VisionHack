@@ -1,3 +1,6 @@
+.mainPage {
+  padding-top: 150px;
+}
 .mainPage .content {
   display: flex;
   flex-direction: column;
@@ -32,6 +35,9 @@
   border: none;
   box-shadow: 1px 1px 1px 1px #C110CD;
   cursor: pointer;
+}
+.mainPage .content .logs .login:hover {
+  box-shadow: 0px 0px 50px 0px #C110CD;
 }
 .mainPage .content .logs .signin {
   text-decoration: underline;

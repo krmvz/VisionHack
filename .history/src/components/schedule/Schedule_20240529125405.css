@@ -1,0 +1,19 @@
+.schedule {
+  display: flex;
+}
+.schedule .topic_schedule {
+  color: black;
+  font-family: "Kursk205W00-Medium";
+  font-size: 34px;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: left;
+}
+.schedule .steps {
+  display: flex;
+  flex-direction: row;
+}
+.schedule .steps .img {
+  height: 400px;
+}/*# sourceMappingURL=Schedule_20240529125405.css.map */

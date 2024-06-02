@@ -1,0 +1,42 @@
+.forms{
+    .title{
+        font-family: 'Kursk205W00-Medium';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 36px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .forms{
+        form{
+            div{
+                display: flex;
+                flex-direction: column;
+                label{
+                    font-family: Raleway;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    text-align: left;
+                    p
+                }
+                input{
+                    width: Fixed (620px)px;
+                    height: Fixed (52px)px;
+                    padding: 10px 18px 10px 18px;
+                    gap: 10px;
+                    border: 1px 0px 0px 0px;
+                    opacity: 0px;
+                }
+            }
+            button{
+                background-color: #C110CD;
+                width: 620px;
+                height: 60px;
+                padding: 10px 0px 0px 0px;
+                gap: 10px;
+                opacity: 0px;
+            }
+        }
+    }
+}

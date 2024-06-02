@@ -1,3 +1,24 @@
 .schedule {
-  background-image: url("");
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.schedule .topic_schedule {
+  color: black;
+  font-family: "Kursk205W00-Medium";
+  font-size: 34px;
+  font-weight: 500;
+  font-weight: bold;
+  line-height: 34px;
+  text-align: left;
+}
+.schedule .steps {
+  display: flex;
+  flex-direction: row;
+}
+.schedule .steps img {
+  height: 400px;
+  cursor: pointer;
 }/*# sourceMappingURL=Schedule.css.map */

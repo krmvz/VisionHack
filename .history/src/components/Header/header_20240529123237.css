@@ -1,0 +1,27 @@
+.header {
+  background-color: #000417;
+  height: 132px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header .navbar {
+  display: flex;
+  gap: 37px;
+}
+.header .navbar a {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  text-decoration: none;
+  color: white;
+  font-family: Raleway;
+}
+.header .logs {
+  width: Fixed 134px px;
+  height: Fixed 30px px;
+  gap: 10px;
+  opacity: 0px;
+}/*# sourceMappingURL=header_20240529123237.css.map */

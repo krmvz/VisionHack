@@ -1,0 +1,19 @@
+.schedule{
+    // background-image: url('');
+    .topic_schedule{
+        color: black;
+        font-family: 'Kursk205W00-Medium';
+        font-size: 34px;
+        font-weight: 500;
+        font-weight: bold;
+        line-height: 34px;
+        text-align: left;
+    }
+    .steps{
+        display: flex;
+        flex-direction: row;
+        .img{
+            height: 400px;
+        }
+    }
+}

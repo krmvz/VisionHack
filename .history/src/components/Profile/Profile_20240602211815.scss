@@ -1,0 +1,105 @@
+.profile-page {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .sidebar {
+    margin-top: 150px;
+    width: 200px;
+    background-color: white; // Dark blue
+    color: #59555C;
+    padding: 20px;
+    h2 {
+      margin-top: 0;
+      font-size: 24px;
+      color: #e91e63; // Pink
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      li {
+        margin: 15px 0;
+        a {
+            color: #59555C;
+          text-decoration: none;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  
+  .profile {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 400px;
+    
+    .btn_back {
+      a {
+        img {
+          width: 30px;
+        }
+      }
+    }
+    
+    .user {
+      padding: 0px 100px;
+    }
+    
+    .user_info {
+      font-family: 'Raleway';
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      
+      .name {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 28px;
+        text-align: left;
+      }
+      
+      .status {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+      }
+      
+      .faculty {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+      }
+      
+      .uid {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: left;
+      }
+      
+      button.edit {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        color: white;
+        background: #e91e63; // Pink
+        height: 30px;
+        width: 155px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+        &:hover {
+          background: #c2185b; // Darker pink on hover
+        }
+      }
+    }
+  }
+  

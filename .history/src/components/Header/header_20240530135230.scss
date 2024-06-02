@@ -1,0 +1,51 @@
+// @import "~bootstrap/scss/bootstrap";
+
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; /* Background color of your choice */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    z-index: 1000;
+    background-color: #000417;
+    height: 132px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    .navbar{
+        display: flex;
+        // justify-content: space-around;
+        gap: 37px;
+        a{
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 16px;
+            text-align: left;
+            text-decoration: none;
+            color: white;
+            font-family: Raleway;
+        }
+    }
+    .logs{
+        width: Fixed (134px)px;
+        height: Fixed (30px)px;
+        // gap: 20px;
+        // opacity: 0px;
+        width: Fixed (192px)px;
+        button{
+            margin-left: 10px;
+            height: Fixed (60px)px;
+            padding: 10px;
+            gap: 10px;
+            opacity: 0px;
+            background: #C110CD;
+            color: white;
+            border: none;
+            box-shadow: 1px 1px 1px 1px #C110CD;
+            cursor: pointer;
+        }
+        buttton:ho
+    }
+}

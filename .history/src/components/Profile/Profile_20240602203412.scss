@@ -1,0 +1,40 @@
+.profile{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    .user_info{
+        .name{
+            font-family: 'Raleway';
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: left;
+        }
+        .status{
+            font-family: 'Raleway';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+        }
+        .faculty{
+            font-family: 'Raleway';
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 18px;
+            text-align: left;
+        }
+        .uid{
+            font-family: 'Raleway';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 16px;
+            text-align: left;
+        }
+        button{
+            background: #C110CD;
+
+        }
+    }
+}

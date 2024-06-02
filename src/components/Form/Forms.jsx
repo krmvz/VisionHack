@@ -1,0 +1,82 @@
+// import React from 'react'
+import React, { useState } from 'react';
+import './Forms.scss';
+
+const Forms = () => {
+    const [formData, setFormData] = useState({
+        name: '',
+        surname: '',
+        email: '',
+        password: ''
+      });
+    
+      const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value
+        });
+      };
+    
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log(formData);
+        // You can add further submission logic here
+      };
+  return (
+    <div className='forms container'>
+      <div className="title">Form</div>
+      <div className="form">
+        <form onSubmit={handleSubmit}>
+            <div>
+            <label htmlFor="name">Name</label>
+            <input
+                placeholder='Name...'
+                type="text"
+                id="name"
+                name="name"
+                value={formData.name}
+                onChange={handleChange}
+            />
+            </div>
+            <div>
+            <label htmlFor="surname">Surname</label>
+            <input
+                type="text"
+                placeholder='Surname...'
+                id="surname"
+                name="surname"
+                value={formData.surname}
+                onChange={handleChange}
+            />
+            </div>
+            <div>
+            <label htmlFor="email">Email</label>
+            <input
+                placeholder='Email...'
+                type="email"
+                id="email"
+                name="email"
+                value={formData.email}
+                onChange={handleChange}
+            />
+            </div>
+            <div>
+            <label htmlFor="password">Password</label>
+            <input
+                placeholder='Password...'
+                type="password"
+                id="password"
+                name="password"
+                value={formData.password}
+                onChange={handleChange}
+            />
+            </div>
+            <button type="submit">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+  )
+}
+
+export default Forms;
